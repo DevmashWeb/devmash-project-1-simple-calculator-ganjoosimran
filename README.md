@@ -1,2 +1,1 @@
-# Simple Calculator
-Devmash Project 3: To make a simple online calculator.
+# devmash-project-1-simple-calculator-ganjoosimran
