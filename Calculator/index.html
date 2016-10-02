@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>
+      Simple calculator
+    </title>
+    <meta content="Calculator" name="description">
+    <meta content="" name="author">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="images/favicon.png" rel="icon" type="image/jpg" >
+
+  <h1>Simple Calculator</h1>
+  <h3>Basic Electronics</h3>
+
+</head>
+<body class="parent">
+
+<div id="calculator">
+  <div class="top" id="oper">
+    <div class="screen">
+      <INPUT TYPE="text" ID="screen" NAME="screen" style="width:99%" readonly><br>
+      </div>
+      </div>
+      <br>
+      <div class="skey">
+      <span><input type="button" id="AC" value="AC" onclick="reset();"></span>
+      </div>
+    <div class="keys">
+      <br><br>
+      <input type="button" id="num" value="7" onclick="update(7)">
+      <input type="button" id="num" value="8" onclick="update(8)">
+      <input type="button" id="num" value="9" onclick="update(9)">
+      <input type="button" id="op" value="/" onclick="update('/')">
+      <input type="button" id="num" value="4" onclick="update(4)">
+      <input type="button" id="num" value="5" onclick="update(5)">
+      <input type="button" id="num" value="6" onclick="update(6)">
+      <input type="button" id="op" value="-" onclick="update('-')">
+      <input type="button" id="num" value="1" onclick="update(1)">
+      <input type="button" id="num" value="2"  onclick="update(2)">
+      <input type="button" id="num" value="3" onclick="update(3)">
+      <input type="button" id="op" value="+" onclick="update('+')">
+      <input type="button" id="num" value="0" onclick="update(0)">
+      <input type="button" id="num" value="." onclick="update('.')">
+      <input type="button" id="num" value="=" onclick="result();">
+      <input type="button" id="op" value="*" onclick="update('*')">
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
