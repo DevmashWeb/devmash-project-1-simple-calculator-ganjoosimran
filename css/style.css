@@ -1,1 +1,80 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.parent{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #B0BEC5;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+}
+h3{
+  text-align: center;
+  color: black;
+}
+#calculator{
+  width: 320px;
+  height: auto;
+
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+
+  border-radius: 3px;
+  background: #263238;
+}
+
+
+#screen{
+  height: 40px;
+  width: 200px;
+  background: #eceff1;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #263238 ;
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+  }
+
+.keys{overflow: hidden;}
+#num{
+  float: left;
+  width: 70px;
+  height: 40px;
+
+  background: #9e9e9e;
+  border-radius: 3px;
+
+  margin: 0.7px 5px 2px;
+
+  line-height: 40px;
+  text-align: center;
+  font-family: sans-serif;;
+  font-style: italic;
+
+
+  }
+#op
+{
+  width: 70px;
+  height: 40px;
+
+  background:#455A64;
+  border-radius: 3px;
+
+  margin: 0.7px 5px 2px;
+
+  line-height: 40px;
+  text-align: center;
+  font-family: sans-serif;;
+  font-style: italic;
+
+}
+#AC
+{
+  background: black;
+  color: white;
+}
